@@ -1,14 +1,9 @@
 #pragma once
-class FWildBoar
+#include "Character.h"
+
+class FWildBoar : public FCharacter
 {
 public:
-	//Proerty, Member variable
-	int MP;
-	int HP;
-
-	//method, meber function
-	void Move();
-	void Attack();
 
 private:
 };

@@ -2,6 +2,8 @@
 class FCharacter
 {
 public:
+	FCharacter();
+
 	//Proerty, Member variable
 	int MP;
 	int HP;
@@ -9,5 +11,6 @@ public:
 	//method, meber function
 	void Move();
 	void Attack();
+	void Spawn();
 };
 

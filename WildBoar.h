@@ -4,6 +4,7 @@
 class FWildBoar : public FCharacter
 {
 public:
+	FWildBoar();
 
 private:
 };

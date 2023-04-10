@@ -4,6 +4,7 @@
 class FGoblin : public FCharacter
 {
 public:
+	FGoblin();
 
 private:
 };
